@@ -2,18 +2,18 @@
 
 Work in progress. Don't use.
 
-## Run Sinatra App and Run Grunt
-
-```shell
-rake serve
-```
-
-### Install Gems & Grunt modules
+## Install Gems & Grunt modules
 
 ```shell
 cd prototyping-skeleton
 bundle install
 npm install
+```
+
+## Run Sinatra App and Run Grunt
+
+```shell
+rake serve
 ```
 
 Resources:
