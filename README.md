@@ -17,5 +17,5 @@ rake serve
 ```
 
 Resources:
-http://alistapart.com/article/rapid-prototyping-with-sinatra
-http://samuelstern.wordpress.com/2012/11/28/making-a-simple-database-driven-website-with-sinatra-and-heroku/
+* http://alistapart.com/article/rapid-prototyping-with-sinatra
+* http://samuelstern.wordpress.com/2012/11/28/making-a-simple-database-driven-website-with-sinatra-and-heroku/
