@@ -1,6 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "sinatra"
-gem "activerecord"
-gem "sinatra-activerecord"
-gem "pg"
+ruby '1.9.3'
+gem 'sinatra'
+gem 'sass'
+gem 'jekyll'
