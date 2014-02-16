@@ -2,7 +2,7 @@
 
 **Work in progress. Don't use.**
 
-A skeleton for protyping applications for user testing. Runs easily on a Mac set up to serve sites on a local network from the default Apache web server and PHP install. Follow [this guide](https://discussions.apple.com/docs/DOC-3083) to get set up. It uses Sass for CSS and uses Grunt to compile Sass, combine and minify JS, and optimize images.
+A skeleton for protyping applications for user testing. Runs easily on a Mac set up to serve sites on a local network from the default Apache web server and PHP install. Follow [this guide](https://discussions.apple.com/docs/DOC-3083) to get set up. It uses Sass for faster CSS, jQuery for easier JavaScript, and Grunt to compile assets. It also uses [TaffyDB](http://www.taffydb.com/) to mimic simple database features using JSON.
 
 ## Install Sass
 
