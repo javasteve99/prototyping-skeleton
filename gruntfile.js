@@ -9,46 +9,46 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'public/build/css/application.css': 'public/src/scss/application.scss'
+          'assets/build/css/application.css': 'assets/src/scss/application.scss'
         }
       }
     },
     concat: {
       dist: {
         src: [
-          'public/src/js/libs/*.js',
-          'public/src/js/vendor/*.js',
-          'public/src/js/modules/*.js'
+          'assets/src/js/libs/*.js',
+          'assets/src/js/vendor/*.js',
+          'assets/src/js/modules/*.js'
         ],
-        dest: 'public/build/js/application.js'
+        dest: 'assets/build/js/application.js'
       }
     },
     uglify: {
       build: {
-        src: 'public/build/js/application.js',
-        dest: 'public/build/js/application.min.js'
+        src: 'assets/build/js/application.js',
+        dest: 'assets/build/js/application.min.js'
       }
     },
     imagemin: {
       dynamic: {
         files: [{
           expand: true,
-          src: ['public/src/img/*.{png,jpg,gif}'],
-          dest: 'public/build/img/'
+          src: ['assets/src/img/*.{png,jpg,gif}'],
+          dest: 'assets/build/img/'
         }]
       }
     },
     watch: {
       css: {
-        files: ['public/src/scss/**/*.scss'],
+        files: ['assets/src/scss/**/*.scss'],
         tasks: ['sass'],
       },
       js: {
-        files: ['public/src/js/**/*.js'],
+        files: ['assets/src/js/**/*.js'],
         tasks: ['concat', 'uglify'],
       },
       img: {
-        files: ['public/src/img/*.{png,jpg,gif}'],
+        files: ['assets/src/img/*.{png,jpg,gif}'],
         tasks: ['imagemin'],
       }
     }

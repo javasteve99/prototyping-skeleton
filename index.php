@@ -1,3 +1,10 @@
+<?php
+$title = "Protyping Skeleton";
+$bodyClass = "home";
+?>
+
+<?php include("_layouts/default-head.php"); ?>
+
 <header role="banner">
   <div class="container">
     <h1>Prototyping Skeleton</h1>
@@ -146,3 +153,5 @@
     <p>By <a href="http://stevehickeydesign.com/" target="_blank">Steve Hickey</a>.</p>
   </div><!-- end of div.container -->
 </footer><!-- end of footer[role=contentinfo] -->
+
+<?php include("_layouts/default-foot.php"); ?>
